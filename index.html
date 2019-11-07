@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="inc/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div id="content"></div>
+    <script type="text/javascript">
+        $.getJSON('data/data.json',function(data){
+            console.log(data);
+            var output = '<ul>';
+            $.each(data, function(key,val){
+                output += '<li>'+ val.name + " " + val.zipcode+ '</li>';
+            });
+            output += '</ul>';
+            $('#update').html(output);
+        });
+    </script>
+</body>
+</html>

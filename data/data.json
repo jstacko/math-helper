@@ -1,0 +1,300 @@
+{
+  "categories": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "level": 1,
+      "parent": ""
+    },
+    {
+      "slug": "feature",
+      "title": "Feature",
+      "level": 1,
+      "parent": ""
+    },
+    {
+      "slug": "bonus",
+      "title": "Bonus",
+      "level": 1,
+      "parent": ""
+    },
+    {
+      "slug": "nevada-disclaimers",
+      "title": "Nevada Non-Isomorphic Disclaimers",
+      "level": 1,
+      "parent": ""
+    },
+
+    {
+      "slug": "freespin",
+      "title": "Free Spin Bonus",
+      "level": 2,
+      "parent": "bonus"
+    },
+    {
+      "slug": "pick",
+      "title": "Pick Bonus",
+      "level": 2,
+      "parent": "bonus"
+    },
+    {
+      "slug": "respin",
+      "title": "Respins Bonus",
+      "level": 2,
+      "parent": "bonus"
+    },
+    {
+      "slug": "wheel",
+      "title": "Wheel Bonus",
+      "level": 2,
+      "parent": "bonus"
+    },
+    {
+      "slug": "progressive",
+      "title": "Progressive Bonus",
+      "level": 2,
+      "parent": "bonus"
+    }
+  ],
+  "items": [
+    {
+      "text": "Are all symbol pays correct? If there is a bonus with the same symbols, do these pays also match?",
+      "category": "base",
+      "default": 1
+    },
+    {
+      "text": "Are all symbols on all reels? Are all exceptions disclaimed?",
+      "category": "base",
+      "default": 1
+    },
+    {
+      "text": "What symbols does Wild substitute for? If Wild substitution symbols are listed,are all symbols present? If only exceptions are listed, are all symbol substitution exceptions listed (ie Bonus symbols, Jackpot symbols, etc.)",
+      "category": "base",
+      "default": 1
+    },
+    {
+      "text": "Does Wild pay the same as the top paytable symbol?",
+      "category": "base",
+      "default": 1
+    },
+    {
+      "text": "Do all pays (paytable and Bonus/Feature pays) scale with bet multiplier? If not, are these pays specifically called out?",
+      "category": "base",
+      "default": 1
+    },
+    {
+      "text": "Are mystery symbols used? Are mystery stacks on all reels? Do multiple weight draws happen behind the scenes (ie pattern stacks) and if so, how many symbols are drawn per spin? Do they happen on every spin? Is all of this information present in the help screens?",
+      "category": "base",
+      "default": 1
+    },
+    {
+      "text": "Do any symbols have watermarks or sub-symbols? Are all watermarks/sub-symbols available on all symbols? On all reels?",
+      "category": "base",
+      "default": 1
+    },
+
+    {
+      "text": "What triggers this feature? Is the feature trigger functionality present and correct?",
+      "category": "feature",
+      "default": 1
+    },
+    {
+      "text": "Are there any Bonuses or Features that this Feature can?t coincide with? Are any Bonus/Feature exclusions present?",
+      "category": "feature",
+      "default": 1
+    },
+    {
+      "text": "Are all disclaimed rules accurate? Are there any exceptions that should be stated?",
+      "category": "feature",
+      "default": 1
+    },
+    {
+      "text": "Is there anything about how this feature plays that is missing?",
+      "category": "feature",
+      "default": 1
+    },
+    {
+      "text": "Are all numbers disclaimed accurate? Are they within odds? (ie ?X-Y Wilds may be added? is getting each of X and Y Wilds in this feature within 1 in 17Mspins?)",
+      "category": "feature",
+      "default": 1
+    },
+
+    {
+      "text": "What triggers this Bonus? Is the Bonus trigger functionality present and correct?",
+      "category": "bonus",
+      "default": 1
+    },
+    {
+      "text": "Is there a trigger pay associated with this Bonus? Is the trigger pay information present and correct?",
+      "category": "bonus",
+      "default": 1
+    },
+    {
+      "text": "Are there any Bonuses or Features that this Bonus can?t coincide with? Are any Bonus/Feature exclusions present?",
+      "category": "bonus",
+      "default": 1
+    },
+    {
+      "text": "Are all disclaimed rules accurate? Are there any exceptions that should be stated?",
+      "category": "bonus",
+      "default": 1
+    },
+    {
+      "text": "Is there anything about how this Bonus plays that is missing?",
+      "category": "bonus",
+      "default": 1
+    },
+    {
+      "text": "Are all numbers disclaimed accurate? Are they within odds? (ie ?X-Y Wilds may be added? is getting each of X and Y Wilds in this feature within 1 in 17Mspins?)",
+      "category": "bonus",
+      "default": 1
+    },
+    {
+      "text": "What ends the Bonus? Is the Bonus end condition present and accurate?",
+      "category": "bonus",
+      "default": 1
+    },
+    {
+      "text": "Is there a cap on play (ie max spins/picks or max progressives awarded)? If so, is it disclaimed and is the proposed cap within odds?",
+      "category": "bonus",
+      "default": 1
+    },
+
+    {
+      "text": "Is a retrigger possible? Are retrigger conditions different from trigger conditions? If so, is retrigger functionality present and accurate?",
+      "category": "bonus",
+      "subcategory": "freespin",
+      "default": 1
+    },
+    {
+      "text": "Are alternate reels (or reel weights) used during the Bonus? If so, is this functionality disclaimed?",
+      "category": "bonus",
+      "subcategory": "freespin",
+      "default": 1
+    },
+    {
+      "text": "Are all base game features available during the Bonus? If not, is this disclaimed?",
+      "category": "bonus",
+      "subcategory": "freespin",
+      "default": 1
+    },
+    {
+      "text": "Are all base game symbols or symbol combos available during the Bonus? If not, is this disclaimed? (ie if 3 BONUS can land but not 4 or 5)",
+      "category": "bonus",
+      "subcategory": "freespin",
+      "default": 1
+    },
+    {
+      "text": "Are back doors to other Bonuses available? If not, is this disclaimed?",
+      "category": "bonus",
+      "subcategory": "freespin",
+      "default": 1
+    },
+    {
+      "text": "Are there additional symbols that only exist in the FS? If so, are they and their functionality disclaimed?",
+      "category": "bonus",
+      "subcategory": "freespin",
+      "default": 1
+    },
+
+    {
+      "text": "Is getting more picks possible? Is this functionality described accurately?",
+      "category": "bonus",
+      "subcategory": "pick",
+      "default": 1
+    },
+    {
+      "text": "What are the possible pick items? Are all pick item types and their functionality described accurately?",
+      "category": "bonus",
+      "subcategory": "pick",
+      "default": 1
+    },
+    {
+      "text": "Do some pick items back door to another Bonus/Feature? Is this functionality described?",
+      "category": "bonus",
+      "subcategory": "pick",
+      "default": 1
+    },
+    {
+      "text": "Do pick items award credits? Are the credit ranges listed accurate?",
+      "category": "bonus",
+      "subcategory": "pick",
+      "default": 1
+    },
+
+    {
+      "text": "What is the range of possible spins? Is this information present and accurate?",
+      "category": "bonus",
+      "subcategory": "respin",
+      "default": 1
+    },
+    {
+      "text": "Are all base game features available during the Bonus? If not, is this disclaimed?",
+      "category": "bonus",
+      "subcategory": "respin",
+      "default": 1
+    },
+    {
+      "text": "Are back doors to other Bonuses available? If not, is this disclaimed?",
+      "category": "bonus",
+      "subcategory": "respin",
+      "default": 1
+    },
+    {
+      "text": "Are alternate reels (or reel weights) used during the Bonus? If so, is this functionality disclaimed?",
+      "category": "bonus",
+      "subcategory": "respin",
+      "default": 1
+    },
+
+    {
+      "text": "What items are available on the wheel? Are all wheel slice types and their functionality described accurately?",
+      "category": "bonus",
+      "subcategory": "wheel",
+      "default": 1
+    },
+    {
+      "text": "Is it possible to get more spins? If so, is this functionality described accurately?",
+      "category": "bonus",
+      "subcategory": "wheel",
+      "default": 1
+    },
+    {
+      "text": "Do some wheel slices back door to another Bonus/Feature? Is this functionality described?",
+      "category": "bonus",
+      "subcategory": "wheel",
+      "default": 1
+    },
+
+    {
+      "text": "Are progressives available at all bets? If not, is this disclaimed?",
+      "category": "bonus",
+      "subcategory": "progressive",
+      "default": 1
+    },
+    {
+      "text": "Does this game have grad reset progressives? If so, are all grad reset tiers present in the help pages? Can all grad reset tier values be seen in the help pages without making a bet?",
+      "category": "bonus",
+      "subcategory": "progressive",
+      "default": 1
+    },
+    {
+      "text": "Is there a cap on how many progressives can be won on a single play? If so, isthis information present and within odds?",
+      "category": "bonus",
+      "subcategory": "progressive",
+      "default": 1
+    },
+
+    {
+      "text": "How does this game differ by bet level?",
+      "category": "nevada-disclaimers",
+      "default": 1
+    },
+    {
+      "text": "How do the odds of each bonus/feature/progressive differ by bet level?",
+      "category": "nevada-disclaimers",
+      "default": 1
+    }
+  ]
+}
+
